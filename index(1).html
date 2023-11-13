@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <form action="https://formsubmit.co/z.elmotass@gmail.com" method="POST" />
+      <h3 id="titleContact">Contact Zayd El Motassadeq</h3>
+      <h4 class = "contactTitles">First Name<span style="color: red">*</span></h4><br>
+      <input name="First Name" type="text" id="firstName" placeholder="First Name" required><br>
+      <h4 class = "contactTitles">Last Name<span style="color: red">*</span></h4><br>
+      <input type="text" name="Last Name"id="lastName" placeholder="Last Name" required><br>
+      <h4 class = "contactTitles">Email <span style="color: red">*</span></h4><br>
+      <input type="email" name="email" id="email" placeholder="Email" required><br>
+      <h4 class = "contactTitles">Phone</h4><br>
+      <input type="number" id="phone" name="Phone Number" placeholder="Phone Number" min="0" max="9999999999"><br>
+      <h4 class = "contactTitles">Message <span style="color: red">*</span></h4><br>
+      <textarea id="message" name="Message" rows="4" placeholder="Message" required></textarea><br>
+      <button id="submitContact">Submit</button><br>
+    </form>
+  </div>
+
+</body>
+</html>
